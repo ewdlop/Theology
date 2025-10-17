@@ -31,13 +31,42 @@ The pushforward-pullback duality demonstrates how different religious traditions
 
 Together, they form a complete categorical framework for understanding temporal mediation in religious thought.
 
+## Warrior Deity Correspondence: Identity Functor
+
+### Overview
+
+This project also explores the correspondence between warrior deities across different religious traditions using the concept of identity functors:
+
+**Identity Functor ↔ 二郎神 (Erlang Shen) and Archangel Michael**
+- **Structure**: Preserves categorical properties across contexts
+- **Operation**: Maps between equivalent structures in different categories
+- **Theological Meaning**: Universal warrior deity archetype manifested in different traditions
+- **Example**: Both 二郎神 and Archangel Michael serve as divine warriors defeating evil
+
+### Categorical Correspondence
+
+The identity functor demonstrates how similar theological roles manifest across cultures:
+
+- **二郎神 (Erlang Shen - Chinese/Taoist)**: Three-eyed warrior god who defeats demons and controls floods
+- **Archangel Michael (Abrahamic)**: Chief of heavenly armies who defeats Satan and demons
+
+Both preserve the essential structure of:
+1. Divine warrior archetype
+2. Protective function against evil
+3. Active intervention in cosmic battles
+4. Maintaining divine/cosmic order
+
 ### Running the Categorical Theology Module
 
 ```bash
 python categorical_theology.py
 ```
 
-This will display a detailed explanation of the pushforward-pullback correspondence with concrete examples.
+This will display a detailed explanation of:
+1. The pushforward-pullback correspondence between Maitreya and Messiah
+2. The identity functor correspondence between 二郎神 (Erlang Shen) and Archangel Michael
+
+Both demonstrations show concrete examples of categorical operations in theological contexts.
 
 ### Running the Visualization Experiment
 
@@ -101,4 +130,17 @@ python pushforward_pullback_experiment.py
 - Press **SPACE** to toggle between overview and detailed explanation
 - Press **LEFT arrow** to focus on the Pushforward (Maitreya) concept
 - Press **RIGHT arrow** to focus on the Pullback (Messiah) concept
+- Press **ESC** to exit the experiment
+
+#### 3. Warrior Deity Correspondence Experiment
+
+```bash
+python warrior_deity_experiment.py
+```
+
+**How to Use:**
+- Visualizes the identity functor correspondence between 二郎神 (Erlang Shen) and Archangel Michael
+- Press **SPACE** to toggle between overview and detailed explanation
+- Press **LEFT arrow** to focus on 二郎神 (Erlang Shen)
+- Press **RIGHT arrow** to focus on Archangel Michael
 - Press **ESC** to exit the experiment
