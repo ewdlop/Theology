@@ -125,6 +125,38 @@ class TheologicalFunctor:
         )
     
     @staticmethod
+    def create_erlang_shen() -> TheologicalConcept:
+        """Create the Erlang Shen (二郎神) concept."""
+        return TheologicalConcept(
+            name="二郎神 (Erlang Shen)",
+            tradition="Chinese (Taoist/Folk)",
+            temporal_direction=TemporalDirection.FORWARD,
+            properties=[
+                "Three-eyed warrior god",
+                "Defeats demons and controls floods",
+                "Protector deity with celestial hound",
+                "Maintains cosmic order",
+                "Active guardian of righteousness"
+            ]
+        )
+    
+    @staticmethod
+    def create_archangel_michael() -> TheologicalConcept:
+        """Create the Archangel Michael concept."""
+        return TheologicalConcept(
+            name="Archangel Michael",
+            tradition="Abrahamic (Judaism/Christianity/Islam)",
+            temporal_direction=TemporalDirection.FORWARD,
+            properties=[
+                "Chief of heavenly armies",
+                "Defeats Satan and demons",
+                "Protector and warrior angel",
+                "Defender of divine order",
+                "Active guardian of the faithful"
+            ]
+        )
+    
+    @staticmethod
     def demonstrate_duality() -> Tuple[TheologicalConcept, TheologicalConcept]:
         """
         Demonstrate the categorical duality between Maitreya and Messiah.
@@ -136,6 +168,19 @@ class TheologicalFunctor:
         messiah = TheologicalFunctor.create_messiah()
         
         return maitreya, messiah
+    
+    @staticmethod
+    def demonstrate_warrior_correspondence() -> Tuple[TheologicalConcept, TheologicalConcept]:
+        """
+        Demonstrate the correspondence between warrior deities across traditions.
+        
+        Returns:
+            Tuple of (Erlang Shen, Archangel Michael) showing identity functor preservation
+        """
+        erlang_shen = TheologicalFunctor.create_erlang_shen()
+        michael = TheologicalFunctor.create_archangel_michael()
+        
+        return erlang_shen, michael
     
     @staticmethod
     def explain_correspondence():
@@ -167,6 +212,48 @@ class TheologicalFunctor:
         
         Together they form a complete categorical framework for understanding
         eschatological hope across religious traditions.
+        """
+    
+    @staticmethod
+    def explain_warrior_correspondence():
+        """Explain the warrior deity correspondence as identity functor."""
+        return """
+        CATEGORICAL THEOLOGY: Identity Functor :: 二郎神 ↔ Archangel Michael
+        
+        IDENTITY FUNCTOR (Structure Preservation):
+        ----------------------------------------
+        An identity functor preserves the categorical structure while allowing
+        for different manifestations across contexts. The warrior deity archetype
+        maintains its essential properties across traditions.
+        
+        二郎神 (ERLANG SHEN) - Chinese Tradition:
+        ----------------------------------------
+        • Role: Three-eyed warrior god
+        • Function: Defeats demons and controls floods
+        • Properties: Celestial protector with divine hound
+        • Context: Taoist and folk religious tradition
+        • Action: Maintains cosmic order through active intervention
+        
+        ARCHANGEL MICHAEL - Abrahamic Tradition:
+        ----------------------------------------
+        • Role: Chief of heavenly armies
+        • Function: Defeats Satan and demons
+        • Properties: Warrior angel and protector
+        • Context: Jewish, Christian, and Islamic tradition
+        • Action: Defends divine order through militant service
+        
+        CATEGORICAL CORRESPONDENCE:
+        ----------------------------------------
+        The identity functor maps between these concepts while preserving:
+        1. Warrior archetype: Both are divine warriors
+        2. Protective function: Both defend against evil forces
+        3. Active intervention: Both engage in cosmic battles
+        4. Maintaining order: Both uphold divine/cosmic law
+        
+        Despite different cultural contexts (Chinese vs Abrahamic), the
+        categorical structure of the warrior deity archetype remains invariant.
+        This demonstrates how identity functors preserve essential properties
+        across different theological categories.
         """
 
 
@@ -227,6 +314,33 @@ def demonstrate_pushforward_pullback():
         result = pullback_prophecy.apply(event)
         print(f"  {result}")
     print()
+    
+    print("=" * 70)
+    print()
+    
+    # Warrior Deity Correspondence
+    print("=" * 70)
+    print("CATEGORICAL THEOLOGY: Identity Functor")
+    print("=" * 70)
+    print()
+    
+    erlang_shen, michael = TheologicalFunctor.demonstrate_warrior_correspondence()
+    
+    print("WARRIOR DEITY (二郎神 - Erlang Shen):")
+    print("-" * 70)
+    print(erlang_shen)
+    for prop in erlang_shen.properties:
+        print(f"  • {prop}")
+    print()
+    
+    print("WARRIOR DEITY (Archangel Michael):")
+    print("-" * 70)
+    print(michael)
+    for prop in michael.properties:
+        print(f"  • {prop}")
+    print()
+    
+    print(TheologicalFunctor.explain_warrior_correspondence())
     
     print("=" * 70)
 
