@@ -2,7 +2,10 @@
 
 ## Summary
 
-This implementation addresses the issue "[pushforward, pull-back] : [Maitreya, Messiah]" by creating a comprehensive framework that maps category theory operations to eschatological theological concepts.
+This implementation addresses multiple theological correspondences using category theory:
+
+1. **[pushforward, pull-back] : [Maitreya, Messiah]** - Demonstrates covariant and contravariant functors
+2. **[Identity Functor] : [二郎神, Archangel Michael]** - Demonstrates structure preservation across traditions
 
 ## Files Added
 
@@ -31,11 +34,24 @@ A PsychoPy visualization experiment that:
 - LEFT/RIGHT arrows: Focus on specific concepts
 - ESC: Exit
 
-### 3. README.md (Updated)
+### 3. warrior_deity_experiment.py
+A PsychoPy visualization experiment that:
+- Displays side-by-side comparison of 二郎神 (Erlang Shen) and Archangel Michael
+- Shows the identity functor correspondence between warrior deities
+- Allows interactive exploration via keyboard controls
+- Provides detailed explanations of the categorical correspondence
+
+**Interactive Controls:**
+- SPACE: Toggle between overview and detailed view
+- LEFT/RIGHT arrows: Focus on specific deities
+- ESC: Exit
+
+### 4. README.md (Updated)
 Updated documentation including:
-- Overview of categorical theology concepts
+- Overview of categorical theology concepts (Maitreya/Messiah and Erlang Shen/Michael)
 - Explanation of pushforward-pullback duality
-- Instructions for running both the module and visualization
+- Explanation of identity functor correspondence
+- Instructions for running both the module and visualizations
 - Integration with existing Divine Name Transformation content
 
 ## Conceptual Framework
@@ -62,6 +78,19 @@ Updated documentation including:
 - References back to ancient covenants and promises
 - Reverses temporal reference: Future ← Past
 
+### Identity Functor ↔ 二郎神 (Erlang Shen) and Archangel Michael
+
+**Category Theory:**
+- Identity functor preserves categorical structure
+- Maps between equivalent structures in different categories
+- Maintains essential properties while changing context
+
+**Theological Analogy:**
+- Warrior deity archetype appears in different traditions
+- 二郎神 (Erlang Shen): Chinese warrior god who defeats demons
+- Archangel Michael: Abrahamic warrior angel who defeats Satan
+- Both preserve: divine warrior role, protective function, cosmic order maintenance
+
 ## Mathematical Rigor
 
 The implementation uses:
@@ -75,8 +104,11 @@ The implementation uses:
 # Run the categorical theology module
 python categorical_theology.py
 
-# Run the visualization experiment (requires PsychoPy)
+# Run the pushforward-pullback visualization experiment (requires PsychoPy)
 python pushforward_pullback_experiment.py
+
+# Run the warrior deity correspondence experiment (requires PsychoPy)
+python warrior_deity_experiment.py
 ```
 
 ## Integration
@@ -86,6 +118,7 @@ The implementation seamlessly integrates with the existing repository structure:
 - Uses the same PsychoPy dependency
 - Maintains consistent documentation style in README.md
 - Complements the existing Id-Ego-Superego framework
+- Extends categorical theology with new correspondences
 
 ## Security
 
@@ -99,6 +132,17 @@ All code has been verified with CodeQL scanner:
 Manual testing performed:
 - ✓ categorical_theology.py runs without errors
 - ✓ Output correctly demonstrates pushforward/pullback operations
+- ✓ Output correctly demonstrates identity functor correspondence (二郎神 ↔ Archangel Michael)
 - ✓ All Python files compile without syntax errors
 - ✓ Integration with existing codebase verified
 - ✓ No security issues detected
+
+## Changes Summary
+
+### Added Files:
+1. `warrior_deity_experiment.py` - New PsychoPy experiment for warrior deity correspondence
+
+### Modified Files:
+1. `categorical_theology.py` - Added Erlang Shen and Archangel Michael concepts with identity functor explanation
+2. `README.md` - Added documentation for warrior deity correspondence and new experiment
+3. `IMPLEMENTATION.md` - Updated with new conceptual framework and usage instructions
