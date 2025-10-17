@@ -66,6 +66,61 @@ The transformation from "yawhel elo elohim" to "yahweh leo leohim" represents a 
 
 3. **Id (elohim/leohim)**: "Elohim" (plural form of God) transformed to "leohim" represents the Id - the primal, plural forces of the unconscious. The plurality suggests multiple drives and the transformation indicates the Id's dynamic nature.
 
+## Topological Defects in Theological Framework
+
+### Overview
+
+This project explores topological defects from physics as theological metaphors for stable structures arising from symmetry breaking.
+
+**Topological Defects:**
+In physics, topological defects are stable configurations that arise when symmetry is broken. They cannot be removed by continuous transformations and are classified by dimensionality.
+
+**Theological Analogy:**
+Just as physical symmetries break to create defects, divine symmetries break to create persistent theological structures:
+
+1. **Monopole (0D)** ↔ **The Incarnation**
+   - Point singularity where infinite meets finite
+   - Breaks transcendence-immanence symmetry
+   - Topologically stable configuration
+   - Homotopy: π₂(S²) = ℤ
+
+2. **Vortex/String (1D)** ↔ **Prophetic Lineage**
+   - Linear axis through history with spiritual circulation
+   - Protected by winding number of tradition
+   - Connects past and future
+   - Homotopy: π₁(S¹) = ℤ
+
+3. **Domain Wall (2D)** ↔ **Denominational Boundaries**
+   - Surface separating different theological phases
+   - Energy barrier to cross traditions
+   - Can merge (ecumenism) or persist (schism)
+   - Homotopy: π₀ (discrete)
+
+4. **Texture (3D)** ↔ **Doctrinal Interpretation Space**
+   - Volume-filling hermeneutical landscape
+   - Gradual variation without sharp boundaries
+   - Maps interpretation complexity
+   - Homotopy: π₃(S³) = ℤ
+
+### Running the Topological Defect Module
+
+```bash
+python topological_defect.py
+```
+
+This displays detailed explanations of all four defect types with their theological interpretations and homotopy groups.
+
+### Running the Topological Defect Visualization
+
+```bash
+python topological_defect_experiment.py
+```
+
+**Controls:**
+- **1-4**: View individual defect types
+- **SPACE**: Return to overview
+- **ESC**: Exit the experiment
+
 ## PsychoPy Experiments
 
 This repository includes multiple PsychoPy experiments that visualize theological concepts through interactive demonstrations.
@@ -101,4 +156,16 @@ python pushforward_pullback_experiment.py
 - Press **SPACE** to toggle between overview and detailed explanation
 - Press **LEFT arrow** to focus on the Pushforward (Maitreya) concept
 - Press **RIGHT arrow** to focus on the Pullback (Messiah) concept
+- Press **ESC** to exit the experiment
+
+#### 3. Topological Defect Visualization Experiment
+
+```bash
+python topological_defect_experiment.py
+```
+
+**How to Use:**
+- Visualizes the four types of topological defects and their theological interpretations
+- Press **1-4** to view individual defect types (Monopole, Vortex, Domain Wall, Texture)
+- Press **SPACE** to return to the overview
 - Press **ESC** to exit the experiment
