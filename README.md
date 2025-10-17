@@ -51,6 +51,31 @@ python pushforward_pullback_experiment.py
 - **RIGHT arrow**: Focus on Pullback (Messiah)
 - **ESC**: Exit the experiment
 
+## Archangel Michael: Historical Clarification
+
+### Common Misconception Addressed
+
+This module addresses the question: "Did people name Archangel Michael after Michelangelo's painting on an arched building?"
+
+**Answer:** No! The naming relationship is actually the opposite:
+
+- **Archangel Michael** appears in ancient religious texts dating back to ~164 BCE (Book of Daniel) and earlier
+- **Michelangelo Buonarroti** (the artist) was born in 1475 CE, over 1,600 years later
+- Michelangelo was **named AFTER** the Archangel Michael, following Christian tradition
+- "Michelangelo" means "Michael the Angel" in Italian
+
+### Running the Historical Timeline Module
+
+```bash
+python archangel_michael_history.py
+```
+
+This displays a comprehensive timeline showing:
+- Ancient textual references to Archangel Michael (Hebrew Bible, New Testament, Quran)
+- Michelangelo's biographical information and works
+- Clarification of the naming relationship
+- Explanation of the "arc building" (Sistine Chapel's arched ceiling) connection
+
 ## Divine Name Transformation
 
 yawhel elo elohim 
