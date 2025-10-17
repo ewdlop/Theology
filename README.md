@@ -66,6 +66,44 @@ The transformation from "yawhel elo elohim" to "yahweh leo leohim" represents a 
 
 3. **Id (elohim/leohim)**: "Elohim" (plural form of God) transformed to "leohim" represents the Id - the primal, plural forces of the unconscious. The plurality suggests multiple drives and the transformation indicates the Id's dynamic nature.
 
+## Archangel Michael: Theological and Artistic Framework
+
+### Overview
+
+This project explores Archangel Michael through both theological and artistic lenses, examining the connection between the archangel and the Renaissance master Michelangelo (whose name literally means "Archangel Michael" in Italian).
+
+**Archangel Michael:**
+The name Michael (מִיכָאֵל - Mikha'el) means "Who is like God?" in Hebrew - a rhetorical question asserting divine supremacy. Michael appears in Jewish, Christian, and Islamic traditions as:
+
+1. **Divine Warrior** - Commander of heavenly armies against evil
+2. **Dragon Slayer** - Defeats Satan/the dragon (Revelation 12:7-9)
+3. **Psychopomp** - Guide of souls to the afterlife
+4. **Protector** - Guardian of Israel (Jewish) or the Church (Christian)
+
+**Michelangelo Connection:**
+The Renaissance artist Michelangelo Buonarroti (1475-1564) shared more than a name with the archangel. His artistic vision embodied Michaelic qualities:
+
+- **Divine Strength**: Both express divine power made manifest
+- **Judgment and Justice**: The Last Judgment fresco echoes Michael's role as weigher of souls
+- **Victory Over Darkness**: Art as illumination of divine truth
+- **Mediation Between Realms**: Art as bridge between divine and human
+
+This framework demonstrates how human creativity in service of depicting divine truth participates in the angelic ministry of revealing and defending divine glory.
+
+### Running the Archangel Michael Module
+
+```bash
+python archangel_michael.py
+```
+
+This displays detailed exploration of:
+- Name etymology and biblical references
+- Theological roles across traditions
+- The Michelangelo connection
+- Warrior archetype analysis
+- Cross-tradition comparison
+- Deep theological significance
+
 ## Topological Defects in Theological Framework
 
 ### Overview
